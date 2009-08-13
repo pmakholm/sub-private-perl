@@ -41,10 +41,7 @@ sub UNIVERSAL::Private :ATTR(CODE,BEGIN) {
     my ($package, $symbol, $referent, $attr, $data) = @_;
 
     on_scope_end {
-        namespace::clean->clean_subroutines(
-            stash_name( $referent ), 
-            sub_name(   $referent )
-        );
+        namespace::clean->clean_subroutines( get_code_info( $referent ) );
     }
 }
 
