@@ -37,7 +37,7 @@ our $VERSION = '0.01';
 
 =cut
 
-sub UNIVERSAL::Private :ATTR(CODE,BEGIN,CHECK) {
+sub UNIVERSAL::Private :ATTR(CODE,BEGIN) {
     my ($package, $symbol, $referent, $attr, $data) = @_;
 
     on_scope_end {
