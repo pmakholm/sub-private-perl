@@ -5,9 +5,9 @@ use strict;
 
 use Attribute::Handlers;
 
-use namespace::clean ();
-use B::Hooks::EndOfScope;
-use Sub::Identify qw(:all);
+use namespace::clean     qw();
+use B::Hooks::EndOfScope qw(on_scope_end);
+use Sub::Identify        qw(get_code_info);
 
 
 =head1 NAME
