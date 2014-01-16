@@ -16,11 +16,11 @@ Sub::Private - Private subroutines and methods
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 SYNOPSIS
 
@@ -48,7 +48,7 @@ sub UNIVERSAL::Private :ATTR(CODE,BEGIN) {
 =head1 DESCRIPTION
 
 This module provide a C<:Private> attribute for subroutines. By using the
-attribut you get truly private methods.
+attribute you get truly private methods.
 
 
 =head1 AUTHOR
@@ -64,7 +64,10 @@ automatically be notified of progress on your bug as I make changes.
 
 =head1 SEE ALSO
 
-namespace::clean
+L<Sub::Deprecated> - provides a :Deprecated attribute for marking
+a sub as deprecated. Calling it generates a warning.
+
+L<namespace::clean>
 
 =head1 SUPPORT
 
