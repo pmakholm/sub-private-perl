@@ -48,7 +48,7 @@ sub UNIVERSAL::Private :ATTR(CODE,BEGIN) {
 =head1 DESCRIPTION
 
 This module provide a C<:Private> attribute for subroutines. By using the
-attribut you get truly private methods.
+attribute you get truly private methods.
 
 
 =head1 AUTHOR

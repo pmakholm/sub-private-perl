@@ -1,5 +1,8 @@
-Revision history for Sub-Private
+Revision history for Perl module Sub-Private
+
+0.02    2009-08-13 
+        - fixed typo in doc
 
 0.01    2009-08-13 
-        First version, released on an unsuspecting world.
+        - First version, released on an unsuspecting world.
 
