@@ -64,7 +64,10 @@ automatically be notified of progress on your bug as I make changes.
 
 =head1 SEE ALSO
 
-namespace::clean
+L<Sub::Deprecated> - provides a :Deprecated attribute for marking
+a sub as deprecated. Calling it generates a warning.
+
+L<namespace::clean>
 
 =head1 SUPPORT
 

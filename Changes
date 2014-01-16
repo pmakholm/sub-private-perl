@@ -1,6 +1,7 @@
 Revision history for Perl module Sub-Private
 
 0.02    2009-08-13 
+        - Added SEE ALSO link to Sub::Deprecated
         - fixed typo in doc
 
 0.01    2009-08-13 
